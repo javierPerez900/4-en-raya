@@ -1,0 +1,72 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f0c29; /* Old browsers */ background: -moz-linear-gradient(left, #0f0c29 0%, #302b63 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, #0f0c29 0%,#302b63 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, #0f0c29 0%,#302b63 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0c29', endColorstr='#302b63',GradientType=1 );
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.login,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.login input,
+.signUp input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  height: 30px;
+}
+
+.login button,
+.signUp button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 320px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.login label,
+.signUp label {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.joinGame input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 30px;
+}
+.joinGame button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 51px;
+  cursor: pointer;
+}

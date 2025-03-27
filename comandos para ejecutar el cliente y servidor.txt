@@ -1,0 +1,2 @@
+Cliente: npm run dev
+Servidor: npm start
